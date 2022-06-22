@@ -20,20 +20,12 @@
         tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="37dp" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="126dp"
-        android:layout_marginTop="20dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="98dp"
-            android:fontFamily="sans-serif-black"
-            android:hint="Введите текст"
-            android:textSize="24sp" />
-    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:fontFamily="sans-serif-black"
+        android:hint="Введите текст"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/button"
